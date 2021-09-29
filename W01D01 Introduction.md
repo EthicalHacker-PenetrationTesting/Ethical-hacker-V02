@@ -43,14 +43,6 @@ Linux is one of the major operating systems and is heavily used in organizations
 
 Information Gathering is the act of gathering different kinds of information against the targeted victim or system. It is the first step or the beginning stage of Ethical Hacking
 
-## Web Hacking
-
-1. How website work 
-2. Web Fundamentals
-3. Burp suite
-4. OWASP
-5. Upload vulnerabilities
-
 ## Network Exploitation
 Networking describes how computers interact and communicate with each other. Since computers can be used for a wide variety of purposes, the way they communicate is varied. This module will introduce the core concepts of computer networking, followed by the methodology and tooling required to attack various network services.
 
@@ -59,9 +51,17 @@ In this stage, we will cover:
 2. Gaining Access
 3. post connection attacks
 
+## Windows Exploitation
+Windows is the most popular operating system, used by both individuals and within corporate environments. Windows systems are often linked together to create networks, which are used in most enterprises around the world. This module will explore everything from getting started with using Windows, to attacking common flaws that are found in common Windows systems.
+
 ## Cryptography
 
 The internet is used by virtually everyone today for very trivial purposes such as playing games to more important tasks such as online banking. Users have started using the internet to access and utilize important services. A large part of ensuring that this communication is secure is done using Cryptographic primitives. This module will explore core cryptographic topics that are used to secure communication over the internet and in machines/servers.
 
-## Windows Exploitation
-Windows is the most popular operating system, used by both individuals and within corporate environments. Windows systems are often linked together to create networks, which are used in most enterprises around the world. This module will explore everything from getting started with using Windows, to attacking common flaws that are found in common Windows systems.
+## Web Hacking
+
+1. How website work 
+2. Web Fundamentals
+3. Burp suite
+4. OWASP
+5. Upload vulnerabilities
