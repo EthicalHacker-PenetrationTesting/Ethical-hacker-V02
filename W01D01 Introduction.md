@@ -9,10 +9,10 @@ By the end of this Stage, you will be familiar with the following:
 - Build up your Lap
 - Linux Fundamentals
 - Information gathering
-- Web Hacking
 - Network Exploitation
-- Cryptography
 - Windows Exploitation
+- Cryptography
+- Web Hacking
 
 ## What is the Ethical-hacker
 Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. Carrying out an ethical hack involves duplicating strategies and actions of malicious attackers. This practice helps to identify security vulnerabilities, which can then be resolved before a malicious attacker has the opportunity to exploit them.
