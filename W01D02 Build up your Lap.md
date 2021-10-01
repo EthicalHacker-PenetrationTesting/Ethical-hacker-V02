@@ -10,7 +10,7 @@ By the end of this lesson, you will be familiar with the following:
 - Kali Linux
 - Run Kali in VirtualBox 
 - OWASP & installation 
-- windows host & installation 
+- windows & installation 
 
 ##  VirtualBox
 
