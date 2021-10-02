@@ -1,4 +1,3 @@
-
 # Build up your Lap
 
 ## High Level Goals
@@ -61,15 +60,13 @@ Kali Linux (formerly known as Backtrack Linux) is an open-source, Debian-based L
 
    - Go to `Settings`.
    - On the left side go to `Storage` and press in `Controller: IDE O+` and click in `Add` then chose the `kali-linux.iso file` and press ok.
-   - Go to the `Network` and select `Attached to` and choose `Bridged Adapter`.
+   - Go to the `Network` and select `Attached to` and choose `Nat network`.
 
-- Note: What is `Bridged Adapter` and why we used it
+- Nat network issue 
 
-Bridged Adapter This mode is used for connecting the virtual network adapter of a VM to a physical network to which a physical network adapter of the VirtualBox host machine is connected.
+ select `file` in VirtualBox choose `Preferense` then go to network and press in add button
 
-A VM virtual network adapter uses the host network interface for a network connection. Put simply, network packets are sent and received directly from/to the virtual network adapter without additional routing. A special net filter driver is used by VirtualBox for a bridged network mode in order to filter data from the physical network adapter of the host.
-
-- Note: to read more about the Network, visit [link](https://www.nakivo.com/blog/virtualbox-network-setting-guide)
+- Note: to read more about the Network in VirtualBox, visit [link](https://www.nakivo.com/blog/virtualbox-network-setting-guide)
 
 ### Now we are going to install Kali-linux
 
@@ -108,9 +105,20 @@ A VM virtual network adapter uses the host network interface for a network conne
    - `Install the GRUB boot loader to your primary drive` make sure it is `Yes`.
    - `Device for boot loader installaion` choose the `/dev/sda (ata-VBOX_HARDDISK_VB894idi83-a88d4993)`.
 
-### Now our Kali-linux are ready, make sure you have like picture
+**Now our Kali-linux are ready, make sure you have like picture**
 
 ![completeInstall](./img/completeInstallion.png).
+
+### Creating and using snapshots
+
+A virtual machine snapshot is **just an image of the state and data of a virtual machine, captured and stored at a given point in time**. A virtual machine's data includes all files from disk, in memory and on other supported storage devices. A VM snapshot does not have any impact on the virtual machine itself.
+
+1. click in 
+
+![snapshot1](/img/snapshot1.png)
+
+2. Select **snapshots** 
+3. Press in **Take**
 
 **Note:** use the username and the password that you add it in the installation.
 
@@ -171,3 +179,6 @@ The Open Web Application Security Project is an online community that produces f
 - Now you can visit this IP address `192.168.1.85` in your browser
 
 ![OWASP-9](./img/Screenshot_9.png)
+
+
+## windows host & installation
