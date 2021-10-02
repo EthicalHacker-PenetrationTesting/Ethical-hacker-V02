@@ -115,7 +115,7 @@ A virtual machine snapshot is **just an image of the state and data of a virtual
 
 1. click in 
 
-![snapshot1](/img/snapshots1.png)
+![snapshots1](./img/snpshots1.png)
 
 2. Select **snapshots** 
 3. Press in **Take**
