@@ -191,3 +191,5 @@ Microsoft has released a number of windows virtual machines that can be download
 2. In **Select a download** sections, choose **MSEdge on win 10 (x64) Stable 1809**
 3. Choose a VM platform:  **virtual box**
 4. Open **virtual box** and extract the window file, then you will see a file called `MSEdge - Win10.ova` press in it, it will move to your virtual box click in setting and change the **ram** to be `2024 GB` 
+
+**Note:** The password for this machin is `Passw0rd!`
