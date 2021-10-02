@@ -115,7 +115,7 @@ A virtual machine snapshot is **just an image of the state and data of a virtual
 
 1. click in 
 
-![snapshot1](/img/snapshot1.png)
+![snapshot1](/img/snapshots1.png)
 
 2. Select **snapshots** 
 3. Press in **Take**
@@ -181,7 +181,7 @@ The Open Web Application Security Project is an online community that produces f
 ![OWASP-9](./img/Screenshot_9.png)
 
 
-## windows host & installation
+## windows & installation
 
 We will also install a normal Windows machine as a victim, we will be running out attacks against this machine.
 
