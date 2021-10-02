@@ -31,7 +31,7 @@ We will learn how to download and use this following:
 1. Virtual Box.
 2. Kali Linux.
 3. OWASP.
-4. Windows hosting
+4. Windows 10  Virtual Box
 
 ## Linux Fundamentals
 
