@@ -164,7 +164,7 @@ The Open Web Application Security Project is an online community that produces f
 
 4. Run the `OWASPBWA`:
 
-- make sure the `Network` Attached to `Bridged Adapter` before you start
+- make sure the `Network` Attached to `Host-only` before you start
 
 - Now Click in `Start`
 
@@ -176,7 +176,7 @@ The Open Web Application Security Project is an online community that produces f
 
 ![OWASP-8](./img/Screenshot_8.png)
 
-- Now you can visit this IP address `192.168.1.85` in your browser
+- Now you can visit this IP address `[OWASP IP]` in your browser
 
 ![OWASP-9](./img/Screenshot_9.png)
 
