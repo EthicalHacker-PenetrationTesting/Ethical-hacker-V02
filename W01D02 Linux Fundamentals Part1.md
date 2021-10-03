@@ -90,3 +90,27 @@ Now that we know what folders exist, we need to use the **`cd`** command (short 
 	┌──(tetra㉿kali)-[~/Pictures]
 	└─$ ls
 	dog_picture1.jpg dog_picture2.jpg dog_picture3.jpg dog_picture4.jpg
+
+### Outputting the Contents of a File (cat)
+
+While knowing about the existence of files is great — it's not all that useful unless we're able to view the contents of them.
+
+We will come on to discuss some tools available to us that allows us to transfer files from one machine to another in a later lesson. But for now, we're going to talk about simply seeing the contents of text files using a command called **`cat`**.
+
+**Cat** is short for concatenating & is a fantastic way for us to output the contents of files (not just text files!).
+
+In the command below, you can see how I have combined the use of "ls" to list the files within a directory called "Documents":
+	
+	┌──(tetra㉿kali)-[~/Documents]
+	└─$ ls
+	todo.txt
+	
+	┌──(tetra㉿kali)-[~/Documents]
+	└─$ cat todo.txt
+	Here's something important for me to do later!
+
+We've applied some knowledge from earlier in this task to do the following:
+1.  Used **`ls`** to let us know what files are available in the "Documents" folder of this machine. In this case, it is called "todo.txt".
+2. We have then used `cat todo.txt` to concatenate/output the contents of this "todo.txt" file, where the contents are "Here's something important for me to do later
+
+> _Pro tip: You can use  `cat`  to output the contents of a file within directories without having to navigate to it by using  **cat** and the name of the directory. I.e.  `cat /home/ubuntu/Documents/todo.txt`_
