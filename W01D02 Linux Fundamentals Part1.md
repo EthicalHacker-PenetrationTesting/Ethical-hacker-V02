@@ -213,8 +213,12 @@ At an overview, I'm going to be showcasing the following operators:
 ## Practice 
 You Can answer these Question in this form [add Google form]
 
-Q1. What year was the first release of a Linux operating system?
-Q2. If we wanted to output the text "**MerakiAcademy**", what would our command be?
-Q3. If we wanted to run a command in the background, what operator would we want to use?
-Q4. If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
-Q5. Now if I wanted to add "MerakiAcademy" to this file named "passwords" but also keep "passwords123", what would my command be.
+1. What year was the first release of a Linux operating system?
+
+2. If we wanted to output the text "**MerakiAcademy**", what would our command be?
+
+3. If we wanted to run a command in the background, what operator would we want to use?
+
+4. If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
+
+5. Now if I wanted to add "MerakiAcademy" to this file named "passwords" but also keep "passwords123", what would my command be.
