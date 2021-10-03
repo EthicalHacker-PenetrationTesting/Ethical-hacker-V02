@@ -114,3 +114,21 @@ We've applied some knowledge from earlier in this task to do the following:
 2. We have then used `cat todo.txt` to concatenate/output the contents of this "todo.txt" file, where the contents are "Here's something important for me to do later
 
 > _Pro tip: You can use  `cat`  to output the contents of a file within directories without having to navigate to it by using  **cat** and the name of the directory. I.e.  `cat /home/ubuntu/Documents/todo.txt`_
+
+### Finding out the full Path to our Current Working Directory (pwd)
+
+It's easy to lose track of where we are on the file system exactly, which is why I want to introduce **`pwd`**. This stands for  **p**rint  **w**orking  **d**irectory.
+
+Using the example machine from before, we are currently in the "Documents" folder — but where is this exactly on the Linux machine's filesystem? We can find this out using this "pwd" command, like within the command below:
+
+	┌──(tetra㉿kali)-[~/Documents]
+	└─$ pwd
+	/home/tetra/Documents
+	
+	┌──(tetra㉿kali)-[~/Documents]
+	└─$ 
+**Let's break this down:**
+1.  We already know we're in "Documents" thanks to our terminal, but at this point in time, we have no idea where "Documents" is stored so that we can get back to it easily in the future.
+2.  I have used the **`pwd`** (**p**rint  **w**orking  **d**irectory) command to find the full file path of this "Documents" folder.
+3.  We're helpfully told by Linux that this "Documents" directory is stored at "/home/tetra/Documents" on the machine — great to know!
+4.  Now in the future, if we find ourselves in a different location, we can just use  `cd /home/tetra/Documents`  to change our working directory to this "Documents" directory.
