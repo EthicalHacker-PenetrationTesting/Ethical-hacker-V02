@@ -78,3 +78,15 @@ In the command above, we can see there are the following directories/folders:
 -   Pictures
 
 > _Pro tip: You can list the contents of a directory without having to navigate to it by using  **ls**  and the name of the directory. I.e.  `ls Pictures`_
+
+### Changing Our Current Directory (cd)
+
+Now that we know what folders exist, we need to use the **`cd`** command (short for **c**hange **d**irectory) to change to that directory. Say, if I wanted to open the "Pictures" directory - I'd do "**cd Pictures**". Where again, we want to find out the contents of this "Pictures" directory and to do so, we'd use **`ls`** again:
+
+								using cd
+	┌──(tetra㉿kali)-[~]
+	└─$ cd Pictures
+	
+	┌──(tetra㉿kali)-[~/Pictures]
+	└─$ ls
+	dog_picture1.jpg dog_picture2.jpg dog_picture3.jpg dog_picture4.jpg
