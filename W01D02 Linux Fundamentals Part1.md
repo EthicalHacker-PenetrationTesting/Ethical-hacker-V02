@@ -50,3 +50,31 @@ Let's get started with two of the first commands, which I have broken down in th
 	┌──(tetra㉿kali)-[~]
 	└─$ whoami 
 	 tetra
+
+
+## Extract Interacting With the File System
+
+|Command| Full Name |
+|--|--|
+|ls | listing |
+| cd | change directory |
+| cat | concatenate |
+| pwd | print working directory |
+
+### Listing Files in Our Current Directory (ls)
+
+Before we can do anything such as finding out the contents of any files or folders, we need to know what exists in the first place. This can be done using the `ls` command (short for listing)
+
+		Using "ls" to to list the contents of the current directory
+
+	┌──(tetra㉿kali)-[~]
+	└─$ ls
+	'Important Files' 'My Documents' 'Notes' 'Pictures'
+	
+In the command above, we can see there are the following directories/folders:
+-   Important Files
+-   My Documents
+-   Notes
+-   Pictures
+
+> _Pro tip: You can list the contents of a directory without having to navigate to it by using  **ls**  and the name of the directory. I.e.  `ls Pictures`_
