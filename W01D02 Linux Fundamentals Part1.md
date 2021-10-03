@@ -19,3 +19,34 @@ It's fair to say that Linux is a lot more intimidating to approach than Operatin
 -   Car entertainment/control panels
 -   Point of Sale (PoS) systems such as checkout tills and registers in shops
 -   Critical infrastructures such as traffic light controllers or industrial sensors
+
+## What is Terminal and running  our first few commands
+
+The "Terminal" is purely text-based and is intimidating at first. However, if we break down some commands, after some time, you quickly become familiar with using the terminal!
+
+					This is what a terminal looks like
+					
+	┌──(tetra㉿kali)-[~]
+	└─$ enter commands here
+
+We need to be able to do basic functions like navigate to files, output their contents and make files! The commands to do so are self-explanatory.
+
+Let's get started with two of the first commands, which I have broken down in the table below:
+
+| Command | Description  |
+|--|--|
+| echo | Output any text that we provide |
+| whoami | Find out what user we're currently logged in as! |
+
+>  See the snippets below for an example of each command being used...
+
+								Using echo
+	
+	┌──(tetra㉿kali)-[~]
+	└─$ echo Hello World
+	 Hello World
+	
+								using whoami
+	┌──(tetra㉿kali)-[~]
+	└─$ whoami 
+	 tetra
