@@ -196,3 +196,16 @@ We can use `grep`to search the entire contents of this file for any entries of t
 	81.143.211.90 - - [25/Mar/2021:11:17 + 0000] "GET / HTTP/1.1" 200 417 "-" "Mozilla/5.0 (Linux; Android 7.0; Moto G(4))"
 
 "Grep" has searched through this file and has shown us any entries of what we've provided and that is contained within this log file for the IP.
+
+## An Introduction to Shell Operators
+
+Linux operators are a fantastic way to power up your knowledge of working with Linux. There are a few important operators that are worth noting. We'll cover the basics and break them down accordingly to bite-sized chunks.
+
+At an overview, I'm going to be showcasing the following operators:
+
+| Symbol / Operator | Description | How we use it|
+|--|--| --|
+| & | This operator allows you to run commands in the background of your terminal. |  The "&" shell operator allows us to execute a command and have it run in the background (such as this file copy) allowing us to do other things! |
+| && | This operator allows you to combine multiple commands together in one line of your terminal. |  for example `command1 && command2`. However, it's worth noting that `command2` will only run if `command1` was successful. |
+| > | This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file) and direct it elsewhere. |  Let's say we wanted to create a file named "welcome" with the message "hey". We can run  `echo hey > welcome`  where we want the file created with the contents "hey" |
+| >> | This operator does the same function of the  `>`  operator but appends the output rather than replacing (meaning nothing is overwritten). |  The `>>` operator allows to append the output to the bottom of the file — rather than replacing the contents `echo hello >> welcome` |
