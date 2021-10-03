@@ -209,3 +209,12 @@ At an overview, I'm going to be showcasing the following operators:
 | && | This operator allows you to combine multiple commands together in one line of your terminal. |  for example `command1 && command2`. However, it's worth noting that `command2` will only run if `command1` was successful. |
 | > | This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file) and direct it elsewhere. |  Let's say we wanted to create a file named "welcome" with the message "hey". We can run  `echo hey > welcome`  where we want the file created with the contents "hey" |
 | >> | This operator does the same function of the  `>`  operator but appends the output rather than replacing (meaning nothing is overwritten). |  The `>>` operator allows to append the output to the bottom of the file — rather than replacing the contents `echo hello >> welcome` |
+
+## Practice 
+You Can answer these Question in this form [add Google form]
+
+Q1. What year was the first release of a Linux operating system?
+Q2. If we wanted to output the text "**MerakiAcademy**", what would our command be?
+Q3. If we wanted to run a command in the background, what operator would we want to use?
+Q4. If I wanted to replace the contents of a file named "passwords" with the word "password123", what would my command be?
+Q5. Now if I wanted to add "MerakiAcademy" to this file named "passwords" but also keep "passwords123", what would my command be.
