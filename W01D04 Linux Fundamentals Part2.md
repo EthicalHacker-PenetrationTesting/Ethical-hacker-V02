@@ -96,7 +96,7 @@ Download note note3
 
 > This command takes one argument. 
 ```
-→ Using file to determine the contents of a file
+→ Using file to determine the contents of a file or the folder.
 ┌──(tetra㉿kali)-[~]
 └─$ file note
 note: ASCII text
