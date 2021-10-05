@@ -99,3 +99,14 @@ Moving a file takes two arguments, just like the cp command. However, rather tha
 └─$ ls 
 folder1 note note3
 ```
+
+### Determining File Type
+
+he files we have used in our examples haven't had an extension. Without knowing the context of why the file is there -- we don't really know its purpose. Enter the `file` command. This command takes one argument. For example, we'll use `file` to confirm whether or not the "note" file in our examples is indeed a text file, like so `file note`.
+
+```
+=> Using file to determine the contents of a file
+┌──(tetra㉿kali)-[~]
+└─$ file note
+note: ASCII text
+```
