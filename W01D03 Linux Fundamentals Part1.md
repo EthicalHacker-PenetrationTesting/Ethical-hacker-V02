@@ -56,7 +56,7 @@ Before we can do anything such as finding out the contents of any files or folde
 	→ Using "ls" to to list the contents of the current directory
 	┌──(tetra㉿kali)-[~]
 	└─$ ls
-	'Important Files' 'My Documents' 'Notes' 'Pictures'
+	'Download' 'My Documents' 'Notes' 'Pictures'
 
 > _Pro tip: You can list the contents of a directory without having to navigate to it by using  **ls**  and the name of the directory. I.e.  `ls Pictures`_
 
@@ -70,7 +70,7 @@ we need to use the **`cd`** command (short for **c**hange **d**irectory) to chan
 	
 	┌──(tetra㉿kali)-[~/Pictures]
 	└─$ ls
-	dog_picture1.jpg dog_picture2.jpg dog_picture3.jpg dog_picture4.jpg
+	dog_picture1.jpg cat_picture1.jpg dog_picture2.jpg cat_picture2.jpg
 
 ### Outputting the Contents of a File (cat)
 
@@ -85,14 +85,14 @@ we're going to talk about simply seeing the contents of text files using a comma
 	→ Using cat
 	┌──(tetra㉿kali)-[~/Documents]
 	└─$ cat todo.txt
-	Here's something important for me to do later!
+	This is the what cat showing for us!
 
 We've applied some knowledge from earlier in this section to do the following:
 
 1.  Used **`ls`** to let us know what files are available in the "Documents" folder of this machine. In this case, it is called "todo.txt".
 2. We have then used `cat todo.txt` to concatenate/output the contents of this "todo.txt" file, where the contents are "Here's something important for me to do later
 
-> _Pro tip: You can use  `cat`  to output the contents of a file within directories without having to navigate to it by using  **cat** and the name of the directory. I.e.  `cat /home/ubuntu/Documents/todo.txt`_
+> _Pro tip: You can use  `cat`  to output the contents of a file within directories without having to navigate to it by using  **cat** and the name of the directory. I.e.  `cat /home/Kali/Documents/todo.txt`_
 
 ### Finding out the full Path to our Current Working Directory (pwd)
 
@@ -141,7 +141,7 @@ Find has managed to  _find_:
 |--|--| --|
 | & | This operator allows you to run commands in the background of your terminal. |  The "&" shell operator allows us to execute a command and have it run in the background (such as this file copy) allowing us to do other things! |
 | && | This operator allows you to combine multiple commands together in one line of your terminal. |  for example `command1 && command2`. However, it's worth noting that `command2` will only run if `command1` was successful. |
-| > | This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file) and direct it elsewhere. |  Let's say we wanted to create a file named "welcome" with the message "hey". We can run  `echo hey > welcome`  where we want the file created with the contents "hey" |
+| > | This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file) and direct it elsewhere. |  Let's say we wanted to create a file named "welcome" with the message "hello world". We can run  `echo hello world > welcome`  where we want the file created with the contents "hello world" |
 | >> | This operator does the same function of the  `>`  operator but appends the output rather than replacing (meaning nothing is overwritten). |  The `>>` operator allows to append the output to the bottom of the file — rather than replacing the contents `echo hello >> welcome` |
 
 ## Practice 
