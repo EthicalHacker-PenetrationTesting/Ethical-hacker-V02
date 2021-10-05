@@ -9,7 +9,7 @@ By the end of this lesson, you will be familiar with the following:
 4. Searching for Files
 5. starting with Shell Operators
 
-## A Bit of Background on Linux
+## A Bit of Background on Kali Linux
 Kali Linux is an enterprise-ready security auditing Linux distribution based on Debian GNU/Linux. Kali is aimed at security professionals and IT administrators, enabling them to conduct advanced penetration testing, forensic analysis, and security auditing.
 
 ## What is Terminal and running  our first few commands
