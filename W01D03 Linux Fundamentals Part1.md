@@ -3,7 +3,7 @@
 ## High Level Goals
 
 By the end of this lesson, you will be familiar with the following:
-1. A Bit of Background on Linux 
+1. A Bit of Background on Kali Linux 
 2. What is Terminal and running  our first few commands
 3.  File System commands
 4. Searching for Files
