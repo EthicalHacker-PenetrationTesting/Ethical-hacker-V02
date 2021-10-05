@@ -16,7 +16,7 @@ Kali Linux is an enterprise-ready security auditing Linux distribution based on 
 
 The "Terminal" it is a text-based interface that allows you to enter commands, execute them, and view the results.
 
-	=> This is what a terminal looks like			
+	→ This is what a terminal looks like			
 	┌──(tetra㉿kali)-[~]
 	└─$ enter commands here
 
