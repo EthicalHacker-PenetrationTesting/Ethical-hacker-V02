@@ -2,21 +2,13 @@
 
 ## High Level Goals
 
-In this lesson, we're going to learn some more commands for interacting with the filesystem to allow us to:
+By the end of this lesson, you will be familiar with the following:
 
 -  Advancing your knowledge of the filesystem
 -  introducing you to the access mechanisms
 -  Common Directories
 
 ## Advancing your knowledge of the filesystem
-
-In this section, we're going to learn some more commands for interacting with the filesystem to allow us to:
-
--   create files and folders
--   move files and folders
--   delete files and folders
-
-More specifically, the following commands:
 
 | Command | Full Name | Purpose |
 |--|--|--|
@@ -31,46 +23,46 @@ More specifically, the following commands:
 
 ### Creating Files and Folders (touch, mkdir)
 
-Creating files and folders on  Linux  is a simple process. First, we'll cover creating a file. The touch command takes exactly one argument -- the name we want to give the file we create. For example, we can create the file "note" by using `touch note`. 
+Creating files and folders on  Linux  is a simple process. First, we'll cover creating a file. The touch command takes exactly one argument -- the name we want to give the file we create.
 
-	=> Using touch to create a new file
+	→ Using touch to create a new file
 	┌──(tetra㉿kali)-[~]
 	└─$ touch note
 	
 	┌──(tetra㉿kali)-[~]
 	└─$ ls
-	folder1 note
+	Download note
 
-This is a similar process for making a folder, which just involves using the `mkdir` command and again providing the name that we want to assign to the directory. For example, creating the directory "mydirectory" using `mkdir mydirectory`.
+This is a similar process for making a folder, which just involves using the `mkdir` command and again providing the name that we want to assign to the directory. 
 
-	=> Creating a new directory with mkdir
+	→ Creating a new directory with mkdir
 	┌──(tetra㉿kali)-[~]
 	└─$ mkdir mydirectory
 	
 	┌──(tetra㉿kali)-[~]
 	└─$ ls
-	folder1 mydirectory note
+	Download mydirectory note
 
 ### Removing Files and Folders (rm)
 
 `rm` is extraordinary out of the commands that we've covered so far. You can simply remove files by using `rm`. However, you need to provide the `-R` switch alongside the name of the directory you wish to remove.
 ```
-=> Using rm to remove a file
+→ Using rm to remove a file
 ┌──(tetra㉿kali)-[~]
 └─$ rm note
 	
 ┌──(tetra㉿kali)-[~]
 └─$ ls
-folder1 mydirectory	
+Download mydirectory	
 ```
 ```
-=> Using rm recursively to remove a directory
+→ Using rm recursively to remove a directory
 ┌──(tetra㉿kali)-[~]
 └─$ rm -R mydirectory
 
 ┌──(tetra㉿kali)-[~]
 └─$ ls
-folder1
+Download
 ```
 
 ### Copying and Moving Files and Folders (cp, mv)
@@ -83,29 +75,28 @@ Copying and moving files is an important functionality on a  Linux  machine. Sta
 `cp`  copies the entire contents of the existing file into the new file. In the command below, we are copying "note" to "note2".
 
 ```
-=> Using cp to copy a file
+→ Using cp to copy a file
 ┌──(tetra㉿kali)-[~]
 └─$ cp note note2
-folder1 note note2
+Download note note2
 ```
-Moving a file takes two arguments, just like the cp command. However, rather than copying and/or creating a new file, `mv` will merge or modify the second file that we provide as an argument. Not only can you use `mv` to move a file to a new folder, but you can also use `mv`to rename a file or folder. For example, in the screenshot below, we are renaming the file "note2" to be named "note3". "note3" will now have the contents of "note2".
-
+Moving a file takes two arguments, `mv` will merge or modify the second file that we provide as an argument. Not only can you use `mv` to move a file to a new folder, but you can also use `mv` to rename a file or folder. 
 ```
-=> Using mv to move a file
+→ Using mv to move a file
 ┌──(tetra㉿kali)-[~]
 └─$ mv note2 note3
 
 ┌──(tetra㉿kali)-[~]
 └─$ ls 
-folder1 note note3
+Download note note3
 ```
 
 ### Determining File Type
+**file** command it's showing us the type of the file. 
 
-he files we have used in our examples haven't had an extension. Without knowing the context of why the file is there -- we don't really know its purpose. Enter the `file` command. This command takes one argument. For example, we'll use `file` to confirm whether or not the "note" file in our examples is indeed a text file, like so `file note`.
-
+> This command takes one argument. 
 ```
-=> Using file to determine the contents of a file
+→ Using file to determine the contents of a file
 ┌──(tetra㉿kali)-[~]
 └─$ file note
 note: ASCII text
