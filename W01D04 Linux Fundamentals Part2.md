@@ -116,3 +116,22 @@ To switching between users in Linux, we will use `su` command, **su** mean **S**
 		Password:
 		┌──(user2㉿kali)-[~]
 		└─$ 
+		
+## Common Directories
+| Directories Name | Full name | what is it |
+|--|--|--|
+| **/etc** | **etcetera** | The etc folder is a commonplace location to store system files that are used by your operating system. |
+| **/var** | **variable data** | This folder stores data that is frequently accessed or written by services or applications running on the system. |
+| /**root** | **"root" system user** | The root is the username or account that by default has access to all commands and files on a Linux |
+| **/tmp** | **temporary** | The /tmp directory is volatile and is used to store data that is only needed to be accessed once or twice. |
+
+## Practice 
+
+1. What is the directory path that would we expect logs to be stored in?
+
+2. What would the command be to switch to the user "user2"?
+
+3.  How would you create the file named "newnote"?
+
+4. How would we move the file "myfile" to the directory "myfolder"
+		
