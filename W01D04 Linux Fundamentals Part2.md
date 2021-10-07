@@ -5,7 +5,7 @@
 By the end of this lesson, you will be familiar with the following:
 
 -  Advancing your knowledge of the filesystem
--  introducing you to the access mechanisms
+-  Switching Between Users
 -  Common Directories
 
 ## Advancing your knowledge of the filesystem
@@ -101,3 +101,18 @@ Download note note3
 └─$ file note
 note: ASCII text
 ```
+
+## Switching Between Users
+
+To switching between users in Linux, we will use `su` command, **su** mean **S**witch **U**sers. You are required to know two things to facilitate this transition of user accounts:
+
+-   The user we wish to switch to
+-   The user's password
+
+
+		→ Using su to switch users
+		┌──(tetra㉿kali)-[~]
+		└─$ su user2
+		Password:
+		┌──(user2㉿kali)-[~]
+		└─$ 
