@@ -17,4 +17,4 @@
   
 5. Now, if I wanted to add "MerakiAcademy" to this file named "passwords" but also keep "passwords123", what would my command be.
 
-	    echo tryhackme >> passwords
+	    echo MerakiAcademy >> passwords
