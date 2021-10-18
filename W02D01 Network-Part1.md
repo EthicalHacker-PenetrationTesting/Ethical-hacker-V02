@@ -28,5 +28,3 @@ we will connect adapter to kali by using the following steps:
 4. Now, click in the name of your USB adapter in my case it is `Realtek 802.11n WLAN Adapter [0200]` 
 
 ![USB3](/img/USB3.png)
-
-Before we can start Kali, we need to download extensions to allow VirtualBox to use the USB device, click in the [link](https://www.virtualbox.org/wiki/Downloads).
