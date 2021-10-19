@@ -28,3 +28,5 @@ we will connect adapter to kali by using the following steps:
 4. Now, click in the name of your USB adapter in my case it is `Realtek 802.11n WLAN Adapter [0200]` 
 
 ![USB3](/img/USB3.png)
+
+**Note:** Before starting the virtual machine, you should disconnect the wireless adapter, then start the kali machine, once the kali is open, connect the wireless adapter.
