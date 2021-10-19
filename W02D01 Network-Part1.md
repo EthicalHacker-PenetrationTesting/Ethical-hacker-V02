@@ -140,3 +140,20 @@ With the latest update of `aircrack-ng`, `airmon-ng` stopped working for some wi
 4. If there are no errors, we can enable the card again `ifconfig wlan0 up`
 
 > When we use this part of monitor mode the name will be `wlan0`  not `wlan0mon,`
+
+## Enabling monitor mode using airmon-ng
+
+it is easy to use it, only use these steps:
+
+1. let's disconnected the card `ifconfig wlan0 down`
+2. this command will be kill any service that might interfere with enabling monitor mode `airmon-ng check kill`
+
+[image  `airmon-ng check kill`]
+
+3.  we will enable monitor mode in the same way that we did in the first method, using the `airmon-ng start wlan0`
+
+4. Now, as monitor mode has been started on `wlan0mon`, which is a virtual wireless interface, we can use the `iwconfig` command to check. Then, it will be in monitor mode.
+
+[images `iwconfig`]
+
+> In the future, we're going to use monitor mode in different attacks. If an attack doesn't work, all we have to do is unplug the card, plug it back in, and try another method for enabling monitor mode.
