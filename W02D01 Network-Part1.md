@@ -122,3 +122,21 @@ future, and get unexpected results, we can come back and try one of the
 other methods for enabling monitor mode.
 
 > If we want to stop monitor mode, we can use the `airmon-ng stop wlan0mon` command
+
+## Enabling monitor mode manually
+
+With the latest update of `aircrack-ng`, `airmon-ng` stopped working for some wireless cards. So now we want to make it manually by using this steps:
+
+1. let's use `iwconfig wlan0` command, as we can see `wlan0` is now in managed mode.
+
+[image `iwconfig wlan0`]
+
+2. we need to disconnect the card `ifconfig wlan0 down`
+
+3. Now, the next command will be to enable monitor mode on the card
+
+		iwconfig wlan0 mode monitor
+
+4. If there are no errors, we can enable the card again `ifconfig wlan0 up`
+
+> When we use this part of monitor mode the name will be `wlan0`  not `wlan0mon,`
