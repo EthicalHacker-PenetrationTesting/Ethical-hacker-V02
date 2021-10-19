@@ -76,3 +76,49 @@ know for changing the MAC address, we can use `--r or --random`
 		ifconfig wlan0 up
 
 [add image for `ifconfig wlan0`]
+
+## Wireless modes - managed and monitor
+
+
+First, we need to know what is the default mode in our wireless card if we use `iwconfig` we will see that waln0 has a default mode called managed mode
+
+[add image]
+
+Basically, in this mode, the wireless device will only receive packets, or will
+only try to capture packets that have our device's MAC address as the destination MAC. It will only capture packets that are actually directed to our computer.
+
+first tools we will use it is `airmon-ng`
+
+[image for `airmon-ng`]
+
+we will start monitor mode on `wlan0` by using 
+
+	airmon-ng start wlan0
+
+`airmon-ng` is the name of the program, `start` initializes monitor mode, and `wlan0` is the wireless card name.
+
+[image]
+
+We now have monitor mode enabled on `mon0`, whenever we want to use monitor mode, we will specify `mon0` as the interface.
+
+> All interfaces might not have the same name, so it will probably be called
+`wlan0mon` or something else, it doesn't matter, just make sure to use the name that monitor mode is enabled on.
+
+If we use `iwconfig wlan0mon`, we will see that the mode is now monitor mode instead of managed mode
+
+[image `iwconfig wlan0mon`]
+
+This means that we can use this card to capture any packet within our range,
+even if the packet is not directed to our device, and even if it doesn't have the
+MAC address of our device as the destination MAC.
+
+**Important Notes:**
+
+- when we enable monitor mode, the card will lose its connection.
+- The next thing is to make sure to use the name that monitor mode is
+enabled on.
+- The third note is that if we enable monitor mode and run an attack in the
+future, and get unexpected results, we can come back and try one of the
+other methods for enabling monitor mode.
+
+> If we want to stop monitor mode, we can use the `airmon-ng stop wlan0mon` command
