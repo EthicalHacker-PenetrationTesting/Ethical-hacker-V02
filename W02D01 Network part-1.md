@@ -157,3 +157,13 @@ it is easy to use it, only use these steps:
 [images `iwconfig`]
 
 > In the future, we're going to use monitor mode in different attacks. If an attack doesn't work, all we have to do is unplug the card, plug it back in, and try another method for enabling monitor mode.
+
+## Practice 
+
+1. What is `iwconfig` 
+
+> Helpfull [link](https://koayyongcett.medium.com/part-4-kali-linux-basics-learn-common-network-commands-with-simple-command-line-a3dc315f8537)
+
+2. How can we enabling monitor mode manually.
+
+3. Why, when we enable monitor mode, the card will lose its connection.
