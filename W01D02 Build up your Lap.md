@@ -9,6 +9,7 @@ By the end of this lesson, you will be familiar with the following:
 - Kali Linux
 - Run Kali in VirtualBox 
 - OWASP & installation 
+- Metasploitable & installation
 - windows & installation 
 
 ##  VirtualBox
@@ -180,6 +181,21 @@ The Open Web Application Security Project is an online community that produces f
 
 ![OWASP-9](./img/Screenshot_9.png)
 
+## Metasploitable & installation 
+
+Go to the [Metasploitable](https://information.rapid7.com/download-metasploitable-2017-thanks.html) website, and press Download, then extract the file. Finally, follow this steps:
+
+1. Go to virtual box and click in `new`
+2. make the `name` Metasploitable 
+3. in the `Type` make it **Linux**
+4. `version` make it **other-(64)**
+5. make the ram `1024` then click next
+6. click to **use an existing virtual hard disk,**  choose the Metasploitable download directory.
+7. go to setting make the network `nat network` finally click to start
+
+> Note the user is **msfadmin** and the password **msfadmin**
+
+Go to the Metasploitable website
 
 ## windows & installation
 
