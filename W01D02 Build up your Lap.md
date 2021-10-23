@@ -195,8 +195,6 @@ Go to the [Metasploitable](https://information.rapid7.com/download-metasploitabl
 
 > Note the user is **msfadmin** and the password **msfadmin**
 
-Go to the Metasploitable website
-
 ## windows & installation
 
 We will also install a normal Windows machine as a victim, we will be running out attacks against this machine.
