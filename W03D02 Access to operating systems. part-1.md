@@ -118,4 +118,4 @@ Now let's try to another service, let's see `139/tcp` which have service `netbio
 
 1. Open your kali and metasploit machine.
 2. Hack the metasploit machine. 
-3. In the files in  metasploit machine,  there is 1 game what is the game?
+3. In the files in  metasploit machine,  there is 1 game what is the game name?
