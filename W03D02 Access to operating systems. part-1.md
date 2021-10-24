@@ -106,3 +106,10 @@ now go to the terminal:
 
 5. know write `exploit` awesome we hacked the Metasploit .
 
+Now let's try to another service, let's see `139/tcp` which have service `netbios-ssn` 
+
+1. Go to the Google and write `Samba smbd 3.X exploit`
+2. open `msfconsole`
+3. use the `use use exploit/multi/samba/usermap_script`
+4. show options and set the options
+5. run the command `exploit`
