@@ -113,3 +113,9 @@ Now let's try to another service, let's see `139/tcp` which have service `netbio
 3. use the `use use exploit/multi/samba/usermap_script`
 4. show options and set the options
 5. run the command `exploit`
+
+## practice
+
+1. Open your kali and metasploit machine.
+2. Hack the metasploit machine. 
+3. In the files in  metasploit machine,  there is 1 game what is the game?
