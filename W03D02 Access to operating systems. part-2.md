@@ -44,14 +44,6 @@ As we can see Veil gives a list of commands that can run on this tool, let's wri
 
 ![Veil3](/img/Veil3.png)
 
-The first part of the payload's name is `cs`, which refers to the programming
-language the payload will be wrapped in. As you can see in the preceding
-screenshot, languages used include GO, C, CS, Python, PowerShell, and Ruby.
-
-The second part of any payload is really important, as this is the type of payload;
-in other words, the type of code that's going to be executed on the target
-computer.
-
 we will use `15) go/meterpreter/rev_https.py` 
 
 In this example, we're using Meterpreter, which is a payload designed by Metasploit.
