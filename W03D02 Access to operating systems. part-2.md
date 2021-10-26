@@ -21,7 +21,7 @@ We can use it by following this steps:
 3. Then write `./setup.py --force --silent`
 4. Finally, `cd ..` and write `./Veil.py`
 
-![Veil1](/img/Veil.png)
+![Veil1](/img/Veil1.png)
 
 
 What is Veil?
