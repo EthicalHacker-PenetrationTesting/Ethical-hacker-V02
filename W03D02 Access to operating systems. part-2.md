@@ -102,4 +102,4 @@ To test our backdoor, we're going to bypass Veil's checkvt command, which is not
 Once we have clicked Scan File, or View Previous Results, we can see that the
 file we uploaded has successfully bypassed all antivirus programs
 
-![Veil6](/img/Veil6.png)
+![Veil6](/img/Veil7.png)
