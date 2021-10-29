@@ -194,16 +194,3 @@ Go to the [Metasploitable](https://information.rapid7.com/download-metasploitabl
 7. go to setting make the network `nat network` finally click to start
 
 > Note the user is **msfadmin** and the password **msfadmin**
-
-## windows & installation
-
-We will also install a normal Windows machine as a victim, we will be running out attacks against this machine.
-
-Microsoft has released a number of windows virtual machines that can be downloaded from the following link (**Make sure you select Windows 10 stable and virtual box**) 
-
-1. Open this [link](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/).
-2. In **Select a download** sections, choose **MSEdge on win 10 (x64) Stable 1809**
-3. Choose a VM platform:  **virtual box**
-4. Open **virtual box** and extract the window file, then you will see a file called `MSEdge - Win10.ova` press in it, it will move to your virtual box click in setting and change the **ram** to be `2024 GB` 
-
-**Note:** The password for this machin is `Passw0rd!`
