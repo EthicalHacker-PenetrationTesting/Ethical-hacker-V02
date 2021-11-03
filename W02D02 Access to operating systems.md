@@ -14,11 +14,6 @@ What do we mean by computer devices?
 Any electronic device you see is a computer. A phone, a TV, a laptop, a web server, a website, a network, a router, all of these things are computers
 Each one of them has an operating system, and they have programs installed on these operating systems.
 
-We're going to be talking about attacking these devices from two main sides: 
-1. Server side.
-2. Client side.
-
-
 ## server side
 
 First things, we want to run the kali and the Metasploitable.
