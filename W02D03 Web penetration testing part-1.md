@@ -24,3 +24,15 @@ The OSI model consists of seven layers:
 | Network  | Layer 3 -- The network layer is responsible for locating the destination of your request. |
 | Data Link | Layer 2 -- The data link layer focuses on the _physical_ addressing of the transmission. |
 | Physical  | Layer 1 -- The physical layer is right down to the hardware of the computer. |
+
+
+## The TCP/IP Model
+
+The TCP/IP model is, in many ways, very similar to the OSI model. It's a few years older, and serves as the basis for real-world networking. The TCP/IP model consists of four layers: Application, Transport, Internet and Network Interface. Between them, these cover the same range of functions as the seven layers of the OSI Model.
+
+> _**Note:** Some recent sources split the TCP/IP model into five layers -- breaking the Network Interface layer into Data Link and Physical layers (as with the OSI model). This is accepted and well-known; however, it is not officially defined (unlike the original four layers which are defined in RFC1122). It's up to you which version you use -- both are generally considered valid._
+
+![image-3](img/image-3.png)
+
+The processes of encapsulation and de-encapsulation work in exactly the same way with the TCP/IP model as they do with the OSI model. At each layer of the TCP/IP model a header is added during encapsulation, and removed during
+ de-encapsulation.
