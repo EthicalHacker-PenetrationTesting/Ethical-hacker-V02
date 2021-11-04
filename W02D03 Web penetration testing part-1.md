@@ -41,3 +41,33 @@ The processes of encapsulation and de-encapsulation work in exactly the same way
 When you attempt to make a connection, your computer first sends a special request to the remote server indicating that it wants to initialize a connection. This request contains something called a _SYN_ (short for Synchronize) bit, which essentially makes first contact in starting the connection process. The server will then respond with a packet containing the SYN bit, as well as another "acknowledgement" bit, called _ACK_. Finally, your computer will send a packet that contains the ACK bit by itself, confirming that the connection has been set up successfully. With the three-way handshake successfully completed, data can be reliably transmitted between the two computers. Any data that is lost or corrupted on transmission is re-sent, thus leading to a connection which appears to be lossless.
 
 ![SYN/ACK](/img/SYN/ACK.png)
+
+## Networking Tools
+
+| command | usage |
+|--|--|
+| `ping ` | `PING <target>` The ping command is used when we want to test whether a connection to a remote resource is possible. Usually this will be a website on the internet, but it could also be for a computer on your home network if you want to check if it's configured correctly |
+| `traceroute` | `traceroute <destination>` The logical follow-up to the ping command is 'traceroute'. Traceroute can be used to map the path your request takes as it heads to the target machine. |
+| `whois` | Whois lookups are very easy to perform. Just use `whois <domain>` to get a list of available information about the domain registration |
+| `dig` | `dig <domain> @<dns-server-ip>`  Dig allows us to manually query recursive  DNS  servers of our choice for information about domains |
+
+
+> _**Note**: You may need to install whois before using it. On Debian based systems this can be done with_ `sudo apt update && sudo apt-get install whois`
+
+## Practice 
+
+1. Which layer encrypts, compresses, or otherwise transforms the initial data to give it a standardized format?
+
+2. Which layer tracks communications between the host and receiving computers?
+
+3. Which is the only layer of the OSI model to add a  _trailer_ during encapsulation?
+
+4. Which model was introduced first, OSI or TCP/IP?
+
+5. Ping _muirlandoracle.co.uk_  What is the IPv4 address?
+
+6. What switch would you use to specify an interface when using Traceroute?
+
+7. What is the registrant postal code for facebook.com?
+
+8. What type of  DNS  server contains records specific to domain extensions (i.e. _com,_  .co.uk*, etc)*? Use the long version of the name.
