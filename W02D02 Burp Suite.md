@@ -69,4 +69,48 @@ There are four main subsections of the User options tab:
 
 - An essential set of options: **Display** allows us to change how Burp Suite looks. The options here include things like changing the font and scale, as well as setting the theme for the framework (e.g. dark mode) and configuring various options to do with the rendering engine in Repeater (we will toke about this later).
 
-- The Misc sub-tab contains a wide variety of settings, including the keybinding table (Hotkeys), which allowing us to view and alter the keyboard shortcuts used by Burp Suite. Familiarizing yourself with these settings would be advisable, as using the key binds can speed up your workflow massively
+- The Misc sub-tab contains a wide variety of settings, including the keybinding table (Hotkeys), which allowing us to view and alter the keyboard shortcuts used by Burp Suite. Familiarizing yourself with these settings would be advisable, as using the key binds can speed up your workflow massively.
+
+### Project options tab
+
+There are five sub-tabs here:
+
+- **Connections** holds many of the same options as the equivalent section of the User options tab: these can be used to override the application-wide settings.
+
+- The **HTTP** sub-tab defines how Burp handles various aspects of the HTTP protocol: for example, whether it follows redirects or how to handle unusual response codes.
+
+- **TLS** allows us to override application-wide TLS options, as well as showing us a list of public server certificates for sites that we have visited.
+
+- The **Sessions** tab provides us with options for handling sessions. It allows us to define how Burp obtains, saves, and uses session cookies that it receives from target sites. It also allows us to define macros which we can use to automate things such as logging into web applications (giving us an instant authenticated session, assuming we have valid credentials).
+
+- There are fewer options in the **Misc** sub-tab than in the equivalent tab for the "User options" section.
+
+### Proxy and configuration
+
+The Burp Proxy is the most fundamental (and most important!) of the tools available in Burp Suite. It allows us to capture requests and responses between ourselves and our target. These can then be manipulated or sent to other tools for further processing before being allowed to continue to their destination.
+
+![burp5](/img/burp5.png)
+
+![burp6](/img/burp6.png)
+
+![burp7](/img/burp7.png)
+
+- know start our Firefox
+
+![burp8](/img/burp8.png)
+
+![burp9](/img/burp9.png)
+
+make sure to select `Manual proxy configuration` and write these sitting
+in **HTTP Proxy:** `127.0.0.1` **PORT:** `8080` and click in **Also use this proxy for FTP and HTTPS**
+
+![burp10](/img/burp10.png)
+
+Now when we visit any website called http we can get information in our burp but when we visit websites called https like facebook we will get issue secure, because the burp certificate it's not in our browser we need to add it by following this steps
+A. Go to `http://burp`
+
+![burp11](/img/burp11.png)
+
+now download the certificate and go again in Firefox setting go to **Privacy & Security** scroll down tell we get option called **Certificates** click in `view certificate` and import the file we downloaded it and select it `cacert.der` then you will see the popup
+
+![burp12](/img/burp12.png)
