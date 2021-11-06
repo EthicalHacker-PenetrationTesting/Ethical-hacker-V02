@@ -55,6 +55,16 @@ click in `OK`, then do these steps
 
 ![burp7](/img/burp7.png)
 
+In addition to the menu bar, Burp Suite also has keyboard shortcuts that allow quick navigation to key tabs. By default, these are:
+
+| **Shortcut**       | **Does**                   |
+| ------------------ | -------------------------- |
+| `Ctrl + Shift + D` | Switch to the Dashboard    |
+| `Ctrl + Shift + T` | Switch to the Target tab   |
+| `Ctrl + Shift + P` | Switch to the Proxy tab    |
+| `Ctrl + Shift + I` | Switch to the Intruder tab |
+| `Ctrl + Shift + R` | Switch to the Repeater tab |
+
 - know start our Firefox
 
 ![burp8](/img/burp8.png)
