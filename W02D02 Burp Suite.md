@@ -41,19 +41,11 @@ To configuration your Burepsuite follow these steps:
 
 ![burp1](/img/burp1.png)
 
-click in `OK`, then do these steps
+click in `OK`.
 
-![burp2](/img/burp2.png)
+Navigating around the Burp Suite GUI by default is done entirely using the top menu bars:
 
-![burp3](/img/burp3.png)
-
-![burp4](/img/burp4.png)
-
-![burp5](/img/burp5.png)
-
-![burp6](/img/burp6.png)
-
-![burp7](/img/burp7.png)
+![b-1](/img/b-1.png)
 
 In addition to the menu bar, Burp Suite also has keyboard shortcuts that allow quick navigation to key tabs. By default, these are:
 
@@ -64,25 +56,3 @@ In addition to the menu bar, Burp Suite also has keyboard shortcuts that allow q
 | `Ctrl + Shift + P` | Switch to the Proxy tab    |
 | `Ctrl + Shift + I` | Switch to the Intruder tab |
 | `Ctrl + Shift + R` | Switch to the Repeater tab |
-
-- know start our Firefox
-
-![burp8](/img/burp8.png)
-
-![burp9](/img/burp9.png)
-
-make sure to select `Manual proxy configuration` and write these sitting
-in **HTTP Proxy:** `127.0.0.1` **PORT:** `8080` and click in **Also use this proxy for FTP and HTTPS**
-
-![burp10](/img/burp10.png)
-
-Now when we visit any website called http we can get information in our burp but when we visit websites called https like facebook we will get issue secure, because the burp certificate it's not in our browser we need to add it by following this steps
-A. Go to `http://burp`
-
-![burp11](/img/burp11.png)
-
-now download the certificate and go again in Firefox setting go to **Privacy & Security** scroll down tell we get option called **Certificates** click in `view certificate` and import the file we downloaded it and select it `cacert.der` then you will see the popup
-
-![burp12](/img/burp12.png)
-
-Now if you check again, you can visit the websites with https, you can visit Facebook
