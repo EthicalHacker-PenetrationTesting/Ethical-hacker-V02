@@ -52,3 +52,21 @@ In addition to the menu bar, Burp Suite also has keyboard shortcuts that allow q
 | `Ctrl + Shift + P` | Switch to the Proxy tab    |
 | `Ctrl + Shift + I` | Switch to the Intruder tab |
 | `Ctrl + Shift + R` | Switch to the Repeater tab |
+
+### User options tab
+
+The options provided in the User options tab will apply every time we open Burp Suite. In contrast, the Project options will only apply to the _current_ project. Given that we can't save projects in Burp Community, this means that our project options will reset every time we close Burp.
+
+![b-2 here](/img/b-2.png)
+
+> The settings here apply globally (i.e. they control the Burp Suite application -- not just the project). That said, many of them can be overwritten in the project settings.
+
+There are four main subsections of the User options tab:
+
+- The options in the **Connections** sub-tab allow us to control how Burp makes connections to targets. For example, we can set a proxy for Burp Suite to connect through; this is very useful if we want to use Burp Suite through a network pivot.
+
+- The **TLS** sub-tab allows us to enable and disable various TLS (**T**ransport **L**ayer **S**ecurity) options, as well as giving us a place to upload client certificates should a web app require us to use one for connections.
+
+- An essential set of options: **Display** allows us to change how Burp Suite looks. The options here include things like changing the font and scale, as well as setting the theme for the framework (e.g. dark mode) and configuring various options to do with the rendering engine in Repeater (we will toke about this later).
+
+- The Misc sub-tab contains a wide variety of settings, including the keybinding table (Hotkeys), which allowing us to view and alter the keyboard shortcuts used by Burp Suite. Familiarizing yourself with these settings would be advisable, as using the key binds can speed up your workflow massively
