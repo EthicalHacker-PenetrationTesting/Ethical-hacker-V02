@@ -1,6 +1,4 @@
-# Web Penetration  Testing
-
-## Introductory Networking
+# Introductory Networking
 
 ## High Level Goals
 
