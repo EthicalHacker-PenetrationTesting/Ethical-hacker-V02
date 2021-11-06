@@ -29,11 +29,7 @@ Whilst Burp Community has a relatively limited feature-set compared to the Profe
 
 ## Navigating and configuring Burp Suite
 
-To configuration your Burepsuite follow these steps:
-
-1. let's start to configure **proxy** for our Firefox
-
-- First open terminal and start our burepsuite, we can do that by typing this command
+- let's start the Burp Suite open terminal and typing this command
 
       burpsuite
 
