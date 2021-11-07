@@ -129,3 +129,18 @@ The Intercept tab is used to display and modify HTTP and WebSocket messages that
 | **Action**                 | This shows a menu of available actions that can be performed on the currently displayed message.                                                         |
 | **Comment field**          | This lets you add a comment to interesting items, to easily identify them later.                                                                         |
 | **Highlight**              | his lets you apply a colored highlight to interesting items. As with comments, highlights will appear in the Proxy history and on intercepted responses. |
+
+
+###  Burp Repeater
+
+Burp Repeater is a simple tool for manually manipulating and reissuing individual HTTP and WebSocket messages, and analyzing the application's responses. You can use Repeater for all kinds of purposes, such as changing parameter values to test for input-based vulnerabilities, issuing requests in a specific sequence to test for logic flaws, and reissuing requests from Burp Scanner issues to manually verify reported issues.
+
+### Burp Intruder
+
+Burp Intruder is a tool for automating customized attacks against web applications. It is extremely powerful and configurable, and can be used to perform a huge range of tasks, from simple brute-force guessing of web directories through to active exploitation of complex blind SQL injection vulnerabilities.
+
+#### How Intruder works
+
+Burp Intruder works by taking an HTTP request (called the "base request"), modifying the request in various systematic ways, issuing each modified version of the request, and analyzing the application's responses to identify interesting features.
+
+For each attack, you must specify one or more sets of payloads and the positions in the base request where the payloads are to be placed. Numerous methods of generating payloads are available (including simple lists of strings, numbers, dates, brute force, a bit flipping, and many others). Payloads can be placed into payload positions using different algorithms, Various tools are available to help analyze the results and identify interesting items for further investigation.
