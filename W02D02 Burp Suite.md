@@ -144,3 +144,10 @@ Burp Intruder is a tool for automating customized attacks against web applicatio
 Burp Intruder works by taking an HTTP request (called the "base request"), modifying the request in various systematic ways, issuing each modified version of the request, and analyzing the application's responses to identify interesting features.
 
 For each attack, you must specify one or more sets of payloads and the positions in the base request where the payloads are to be placed. Numerous methods of generating payloads are available (including simple lists of strings, numbers, dates, brute force, a bit flipping, and many others). Payloads can be placed into payload positions using different algorithms, Various tools are available to help analyze the results and identify interesting items for further investigation.
+
+
+## Practice
+
+1. Which Burp Suite feature allows us to intercept requests between ourselves and the target?
+2. In which  _Project options_  sub-tab can you find reference to a "Cookie jar"?
+3. If we have uploaded Client-Side TLS certificates in the  _User options_  tab, can we override these on a per-project basis (Yes/No)?
