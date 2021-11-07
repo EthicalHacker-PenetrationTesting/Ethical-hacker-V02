@@ -42,7 +42,8 @@ As we see the output
 
 It is mean the server with the IP `192.168.1.85` is running now, we can scan as domain name not only IP address. Let's scan `google.com`
 
-    $ ping google.com                                                    130x
+    ┌──(tetra㉿kali)-[~]
+    └─$ ping google.com                                                    130x
     PING google.com(mrs09s09-in-x0e.1e100.net (2a00:1450:4006:807::200e)) 56 data bytes
     64 bytes from mrs08s05-in-x0e.1e100.net (2a00:1450:4006:807::200e): icmp_seq=1 ttl=115 time=133 ms
     64 bytes from mrs08s05-in-x0e.1e100.net (2a00:1450:4006:807::200e): icmp_seq=2 ttl=115 time=55.7 ms
@@ -65,7 +66,8 @@ Syntax:
 
 Host IP_Address: This will display the domain details of the specified IP Address, let's scan `tesla.com` by using this command `host tesla.com`
 
-    $ host tesla.com
+    ┌──(tetra㉿kali)-[~]
+    └─$ host tesla.com
     tesla.com has address 199.66.11.62
     tesla.com mail is handled by 10 tesla-com.mail.protection.outlook.com.
 
@@ -75,7 +77,8 @@ The **nslookup** command queries internet domain name servers in two modes. Inte
 
 It's like host, we can run this command `nslookup tesla.com`
 
-    $ nslookup tesla.com
+    ┌──(tetra㉿kali)-[~]
+    └─$ nslookup tesla.com
     Server:         192.168.1.1
     Address:        192.168.1.1#53
 
