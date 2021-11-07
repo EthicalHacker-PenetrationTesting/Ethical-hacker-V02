@@ -94,3 +94,11 @@ Whois searches for an object in a WHOIS database. WHOIS is a query and response 
     whois tesla.com
 
 then we're getting some phones numbers, getting name servers and some postal code, we get information about admins organization, city, phone number and some other's information.
+
+## whatweb
+
+WhatWeb identifies websites. It recognizes web technologies including content management systems (CMS), blogging platforms, statistic/analytics packages, JavaScript libraries, web servers, and embedded devices.
+
+WhatWeb has over 900 plugins, each to recognize something different. It also identifies version numbers, email addresses, account IDs, web framework modules, SQL errors, and more.
+
+![whatweb](/img/whatweb.png)
