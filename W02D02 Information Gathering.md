@@ -24,7 +24,6 @@ A search parameter is a limitation applied to a search. Here are a few examples 
 | **inurl**    | followed by a particular string returns results with that sequence of characters in the URL.                                                                                                                  |
 | **intext**   | followed by the searcher’s chosen word or phrase returns files with the string anywhere in the text.                                                                                                          |
 
-
 ## Ping, Host, Nslookup, Whois
 
 ### Ping
@@ -86,7 +85,6 @@ It's like host, we can run this command `nslookup tesla.com`
     Name:   tesla.com
     Address: 199.66.11.62
 
-
 ### Whois
 
 Whois searches for an object in a WHOIS database. WHOIS is a query and response protocol that is widely used for querying databases that store the registered users of an Internet resource, such as a domain name or an P address block, but is also used for a wider range of other information. Let's scan `tesla.com`
@@ -121,10 +119,20 @@ DIRB main purpose is to help in professional web application auditing. Specially
 
 ![dirb-2](./img/Dirb-2.png)
 
-- Now we can go in our browser and use any directory from the `dirb` such as let's use `http://192.168.1.58/phpmyadmin/`
+## Nmap
 
-![dirb-3](./img/Dirb-3.png)
+Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime.
 
-and we will see this
-
-![dirb-4](./img/Dirb-4.png)
+| Nmap command    | used for                         |
+| --------------- | -------------------------------- |
+| `-sT, -sS`      | Basic Scan Types                 |
+| `-sT`           | TCP connect() Scan               |
+| `-sS`           | SYN Stealth Scan                 |
+| `-sF, -sN, -sX` | FIN, Null and Xmas Tree Scans    |
+| `-sP`           | Ping Scan                        |
+| `-sU`           | UDP Scan                         |
+| `-sO`           | IP Protocol Scans                |
+| `-sI`           | Idle Scanning                    |
+| `-sV`           | Version Detection                |
+| `-sA`           | ACK Scan                         |
+| `-sW, -sR, -sL` | Window Scan, RPC Scan, List Scan |
