@@ -114,3 +114,18 @@ A. Go to `http://burp`
 now download the certificate and go again in Firefox setting go to **Privacy & Security** scroll down tell we get option called **Certificates** click in `view certificate` and import the file we downloaded it and select it `cacert.der` then you will see the popup
 
 ![burp12](/img/burp12.png)
+
+### Burp Intercept
+
+The Intercept tab is used to display and modify HTTP and WebSocket messages that pass between your browser and web servers. The ability to monitor, intercept and modify all messages is a core part of Burp's user-driven workflow.
+
+#### Controls
+
+| Name                       | For what                                                                                                                                                 |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Forward**                | When you have reviewed and (if required) edited the message, click "Forward" to send the message on to the server or browser                             |
+| **Drop**                   | Use this to abandon the message so that it is not forwarded.                                                                                             |
+| **Interception is on/off** | This button is used to toggle all interception on and off.                                                                                               |
+| **Action**                 | This shows a menu of available actions that can be performed on the currently displayed message.                                                         |
+| **Comment field**          | This lets you add a comment to interesting items, to easily identify them later.                                                                         |
+| **Highlight**              | his lets you apply a colored highlight to interesting items. As with comments, highlights will appear in the Proxy history and on intercepted responses. |
