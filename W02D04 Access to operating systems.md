@@ -11,15 +11,14 @@ By the end of this lesson, you will be familiar with the following:
 In this stage, we're going to be talking about gaining access to computer devices.
 
 What do we mean by computer devices?
-Any electronic device you see is a computer. A phone, a TV, a laptop, a web server, a website, a network, a router, all of these things are computers
-Each one of them has an operating system, and they have programs installed on these operating systems.
+Any electronic device you see is a computer. A phone, a TV, a laptop, a web server, a website, a network, a router, all of these things are computers. Each one of them has an operating system.
 
 ## server side
 
 First things, we want to run the kali and the Metasploitable.
 We want to know the information about the target, we need to scan the target
 
-	nmap 10.0.2.7
+	nmap -sV [target IP]
 
 > In my case the IP adress of the Metasploitable is 10.0.2.7 you will have another IP.
  
