@@ -9,7 +9,6 @@ By the end of this lesson, you will be familiar with the following:
 3. whatweb
 4. Dirb
 5. Nmap
-6. Nikto
 
 ## Google Dorks
 
@@ -136,3 +135,7 @@ Nmap ("Network Mapper") is a free and open source utility for network discovery 
 | `-sV`           | Version Detection                |
 | `-sA`           | ACK Scan                         |
 | `-sW, -sR, -sL` | Window Scan, RPC Scan, List Scan |
+
+## Practice 
+
+- Read more about [Nmap](https://nmap.org)
